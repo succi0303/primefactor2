@@ -1,0 +1,321 @@
+/*
+Theme Name: PrimeFactor2
+Theme URL: http://succi.jp/blog
+Description: This is my blog "prime factor" Theme
+*/
+
+/* リセット */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* letter-spacingのIEバグに対応する */
+br {
+  letter-spacing:0;
+}
+
+/* 基本 */
+body {
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "MS Pゴシック", "MS PGothic", "sans-serif";
+  color: #333333;
+}
+a {
+  text-decoration: none;
+  color: #0c8bcd;
+}
+a:hover {
+  color: #999999;
+}
+a img {
+  border: none;
+}
+
+/* コンテナ */
+div#container {
+  width: 960px;
+  margin: auto;
+}
+
+/* アドセンス */
+div#ad_bigbanner {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div#ad_link1 {
+  margin: 0 20px 0 0;
+}
+div#ad_rectangle1 {
+  margin: 0 10px;
+}
+
+/* ヘッダー */
+div#header {
+  padding-top: 10px;
+  padding-bottom: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+}
+div#header h1 {
+  font-family: 'Lucida Grande', sans-serif;
+  font-size: 1.75em;
+}
+div#header a {
+  color: #333333;
+}
+div#header a:hover {
+  color: #999999;
+}
+div#header p#desc {
+  font-size: 0.75em;
+  color: #999999;
+  margin: 0 0 10px;
+}
+div#subinfo {
+  text-align: right;
+  margin-top: -40px;
+  margin-right: 40px;
+  letter-spacing: 5px;
+}
+
+/* ナビゲーションバー */
+div#nav {
+  font-size: 0.75em;
+  text-align: right;
+  margin-bottom: 10px;
+}
+div#nav li {
+  list-style-type: none;
+  text-align: center;
+  float: right;
+}
+div#nav li a {
+  display: block;
+  width: 80px;
+}
+div#nav li a:hover {
+  color: #999999;
+}
+
+/* パンくずリスト */
+.single div#header, .archive dev#header {
+  margin-bottom: 5px;
+}
+div#breadcrumb {
+  margin-bottom: 5px;
+  clear: both;
+}
+div#breadcrumb div {
+  display: inline;
+  font-size: 0.75em;
+}
+
+/* コンテンツ */
+div#content {
+  width: 610px;
+  float: left;
+}
+p.pagenation {
+  font-size: 0.75em;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+span.oldpage {
+  float: left;
+}
+span.newpage {
+  float: right;
+}
+
+/* 記事 */
+div.post {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+div.post h2 {
+  border-bottom: dotted 1px #aaaaaa;
+  font-size: 1.125em;
+  padding: 5px 0px;
+}
+div.post h2 a {
+  color: #333333;
+}
+div.post h2 a:hover {
+  color: #999999;
+}
+div.post h3 {
+  font-size: 1.125em;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+div#postinfo p {
+  font-size: 0.75em;
+}
+div.post p {
+  font-size: 0.875em;
+  line-height: 2.0;
+  letter-spacing: 0.1em;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  padding: 5px 10px;
+}
+div.post ul {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  padding: 5px 30px;
+}
+div.post ul li {
+  font-size: 0.875em;
+  line-height: 2.0;
+  letter-spacing: 0.1em;
+}
+div.post ol {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  padding: 5px 30px;
+}
+div.post ol li {
+  font-size: 0.875em;
+  line-height: 2.0;
+  letter-spacing: 0.1em;
+}
+div.post dl {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  padding: 5px 10px;
+}
+div.post dl dt {
+  font-size: 0.875em;
+  letter-spacing: 0.1em;
+  line-height: 2.0;
+  padding: 0 10px;
+}
+div.post dl dd {
+  font-size: 0.875em;
+  letter-spacing: 0.1em;
+  line-height: 2.0;
+  padding: 0 30px;
+  margin-bottom: 10px;
+}
+div.post blockquote {
+  color: #064599;
+  padding: 5px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: solid 3px #999999;
+}
+
+/* 記事内の画像 */
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alignleft {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.alignright {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.wp-caption {
+  border: solid 1px #aaaaaa;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* サイドバー */
+div#sidebar {
+  width: 300px;
+  float: right;
+}
+div#sidebar ul {
+  list-style-type: none;
+}
+div#sidebar .widget {
+  margin-bottom: 20px;
+}
+div#sidebar h2 {
+  font-size: 1em;
+  border-bottom: dotted 1px #aaaaaa;
+  margin-bottom: 5px;
+}
+div#sidebar li {
+  text-align: justify;
+  line-height: 2.0em;
+}
+div#sidebar li li {
+  font-size: 0.75em;
+}
+div#sidebar li li a {
+  color: #333333;
+  display: block;
+}
+div#sidebar li li a:hover {
+  color: #999999;
+}
+
+/* フッター */
+div#footer {
+  border-top: solid 1px #aaaaaa;
+  padding: 6px 0;
+  clear: both;
+}
+div#footer {
+  font-size: 0.75em;
+  font-style: normal;
+}
+
+/* 続きを読む */
+div.post p.more {
+  font-size: 0.875em;
+  text-align: right;
+}
+div.post p.more a:hover {
+  color: #999999;
+}
+
+/* サムネイル画像 */
+div.post p.thumb {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+/* ページ番号リンク */
+p.pagenum {
+  text-align: center;
+}
+p.pagenum a, p.pagenum span {
+  padding: 3px 6px;
+}
+
+/* お問い合わせ */
+.wpcf7-form span.req {
+  color: #aa0000;
+}
+.wpcf7-form input {
+  width: 80%;
+}
+.wpcf7-form textarea {
+  width: 100%;
+}
+.wpcf7-form .wpcf7-submit {
+  width: 100px;
+}
+
+/* コメントフォーム */
+#disqus_thread {
+  border-top: solid 1px #aaaaaa;
+  margin-top: 30px;
+  padding-top: 10px;
+  font-size: smaller;
+}
