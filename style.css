@@ -160,7 +160,7 @@ div#postinfo p {
 div.post p {
   font-size: 0.875em;
   line-height: 2.0;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.075em;
   text-align: justify;
   text-justify: inter-ideograph;
   padding: 5px 10px;
@@ -173,7 +173,7 @@ div.post ul {
 div.post ul li {
   font-size: 0.875em;
   line-height: 2.0;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.075em;
 }
 div.post ol {
   text-align: justify;
@@ -183,7 +183,7 @@ div.post ol {
 div.post ol li {
   font-size: 0.875em;
   line-height: 2.0;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.075em;
 }
 div.post dl {
   text-align: justify;
@@ -192,13 +192,13 @@ div.post dl {
 }
 div.post dl dt {
   font-size: 0.875em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.075em;
   line-height: 2.0;
   padding: 0 10px;
 }
 div.post dl dd {
   font-size: 0.875em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.075em;
   line-height: 2.0;
   padding: 0 30px;
   margin-bottom: 10px;
@@ -239,7 +239,7 @@ div#sidebar {
   float: right;
 }
 div#sidebar ul {
-  list-style-type: none;
+  list-style-type: none;m
 }
 div#sidebar .widget {
   margin-bottom: 20px;
