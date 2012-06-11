@@ -151,7 +151,7 @@ div.post h2 a:hover {
 }
 div.post h3 {
   font-size: 1.125em;
-  padding: 5px 10px;
+  padding: 5px 20px;
   margin-top: 10px;
 }
 div#postinfo p {
@@ -163,12 +163,12 @@ div.post p {
   letter-spacing: 0.075em;
   text-align: justify;
   text-justify: inter-ideograph;
-  padding: 5px 10px;
+  padding: 5px 20px;
 }
 div.post ul {
   text-align: justify;
   text-justify: inter-ideograph;
-  padding: 5px 30px;
+  padding: 5px 40px;
 }
 div.post ul li {
   font-size: 0.875em;
@@ -178,7 +178,7 @@ div.post ul li {
 div.post ol {
   text-align: justify;
   text-justify: inter-ideograph;
-  padding: 5px 30px;
+  padding: 5px 40px;
 }
 div.post ol li {
   font-size: 0.875em;
@@ -188,7 +188,7 @@ div.post ol li {
 div.post dl {
   text-align: justify;
   text-justify: inter-ideograph;
-  padding: 5px 10px;
+  padding: 5px 20px;
 }
 div.post dl dt {
   font-size: 0.875em;
@@ -200,13 +200,13 @@ div.post dl dd {
   font-size: 0.875em;
   letter-spacing: 0.075em;
   line-height: 2.0;
-  padding: 0 30px;
+  padding: 0 40px;
   margin-bottom: 10px;
 }
 div.post blockquote {
   color: #064599;
   padding: 5px;
-  margin-left: 20px;
+  margin-left: 30px;
   padding-left: 10px;
   border-left: solid 3px #999999;
 }
