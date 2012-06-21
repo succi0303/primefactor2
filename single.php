@@ -44,10 +44,10 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
   </div>
   
-  <?php comments_template(); ?>
-  
   <!-- X:S ZenBackWidget --><script type="text/javascript">document.write(unescape("%3Cscript")+" src='http://widget.zenback.jp/?base_uri=http%3A//succi.jp/blog/&nsid=103913574241442044%3A%3A103913595716275035&rand="+Math.ceil((new Date()*1)*Math.random())+"' type='text/javascript'"+unescape("%3E%3C/script%3E"));</script><!-- X:E ZenBackWidget -->
 
+  <?php comments_template(); ?>
+  
 <?php endwhile; endif; ?>
 
 </div>

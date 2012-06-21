@@ -51,6 +51,7 @@ div#ad_link1 {
 }
 div#ad_rectangle1 {
   margin: 0 20px;
+  margin-bottom: 10px;
 }
 
 /* ヘッダー */
@@ -318,4 +319,9 @@ p.pagenum a, p.pagenum span {
   margin-top: 30px;
   padding-top: 10px;
   font-size: smaller;
+}
+
+/* zenback */
+div.zenback-module {
+  font-size: 0.875em;
 }
