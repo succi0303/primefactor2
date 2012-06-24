@@ -328,3 +328,24 @@ p.pagenum a, p.pagenum span {
 div.zenback-module {
   font-size: 0.875em;
 }
+
+/* G-Tools */
+.g-tools_table {
+  margin: 5px 20px;
+  width: 570px;
+  padding: 5px 10px;
+  border: solid 1px #999999;
+}
+.g-tools_table tr td {
+  float: left;
+}
+.g-tools_title {
+  font-size: 0.875em;
+}
+.g-tools_img img {
+  border: solid 1px #999999;
+  margin-right: 10px;
+}
+.g-tools_body {
+  font-size: 0.875em;
+}
