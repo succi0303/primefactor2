@@ -169,6 +169,17 @@ div.post p {
   text-justify: inter-ideograph;
   padding: 5px 20px;
 }
+div.post tr td {
+  font-size: 0.875em;
+  line-height: 0.5;
+  letter-spacing: 0.07tem;
+  padding: 5px 20px;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+div.post tr td img {
+  padding-left: 15px;
+}
 div.post ul {
   text-align: justify;
   text-justify: inter-ideograph;
