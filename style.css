@@ -339,6 +339,9 @@ p.pagenum a, p.pagenum span {
 div.zenback-module {
   font-size: 0.875em;
 }
+#zenback-widget .zenback-module {
+  font-size: 0.875em;
+}
 
 /* G-Tools */
 .g-tools_table {
